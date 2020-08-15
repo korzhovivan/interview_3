@@ -1,0 +1,55 @@
+.explore{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.exploreText{
+    font-size: 28px;
+    color: #4999af;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.my-input-group{
+    margin-bottom: 0;
+    border: 1px solid #4999af;
+    height: 44px;
+    width: 55%;
+}
+.my-style-button{
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid white;
+    height: 42px;
+    border-radius: 0px;
+    border-left: 0;
+    background: #4999af;
+}
+.my-style-input{
+    outline: 0 !important;
+    border-radius: 0px;
+    height: 42px;
+    border: none;
+}
+.my-style-input:focus{
+    box-shadow: none;
+    
+}
+
+@media screen and (max-width: 1400px){
+    .explore{
+        padding: 0px 15px;
+    }
+}
+@media screen and (max-width: 650px){
+    .explore{
+        display: block;
+    }
+    .my-input-group{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
