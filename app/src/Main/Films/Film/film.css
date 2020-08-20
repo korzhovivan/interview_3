@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.film{
+    width: 320px;
+    height: 200px;
+    background:grey;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.description-film{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 260px;
+    height: 47px;
+    background: #23a6ce;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.9;
+    line-height: 47px;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 20px;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.6));
+    position: absolute;
+    bottom: 55px;
+    left: 60px;
+    line-height: 30px;
+}
+@media screen and (max-width: 1030px){
+    .film{
+        margin:10px;
+    }
+}

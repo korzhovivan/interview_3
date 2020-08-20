@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+p{
+    margin: 0;
+    padding:0;
+}
+.footer{
+    height: 215px;
+    width: 100%;
+    background: #525252;
+    margin-top: 75px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+.wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: inherit; 
+    
+}
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+}
+.footer-items div{
+    margin-top: 32px;
+}
+
+.subs-button{
+    width: 275px;
+    height: 35px;
+    font-size: 18px;
+    color: #f3eeea;
+    background: #4999af;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.subs-button:hover{
+    background: #61868f;
+    transition-duration: 0.3s;
+}
+.time{
+    font-size: 20px;
+    color: #f3eeea;
+    font-weight: bold;
+    margin-top: 35px;
+    line-height: 25px;
+}
+.lorem{
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.titles{
+    font-size: 20px;
+    color: #f3eeea;
+    letter-spacing: 1px;
+    line-height: 0;
+}
+hr{
+    background: #6b6b6a;
+    margin: 0;
+    margin-top:50px;
+}
+.copyright{
+    font-size: 12px;
+    color: #b3b3b3;
+    margin-top: 18px;
+}
+.social{
+    display: flex;
+}
+.social img{
+    height: 32px;
+    margin-right: 8px;
+}
+.footer-item{
+    flex-grow: 1;
+}
+.footer-item:nth-child(2){
+    flex-grow: 5;
+}
+
+@media screen and (max-width: 1050px){
+    .wrap{
+        padding: 0px 15px;
+    }
+    .copyright{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer-item{
+        margin: 0px 10px;
+    }
+    .footer-items{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:400px){
+    .titles{
+        line-height: unset;
+    }
+}

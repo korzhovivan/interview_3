@@ -36,11 +36,7 @@
     
 }
 
-@media screen and (max-width: 1400px){
-    .explore{
-        padding: 0px 15px;
-    }
-}
+
 @media screen and (max-width: 650px){
     .explore{
         display: block;
