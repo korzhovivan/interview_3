@@ -6,8 +6,37 @@
     margin-top: 45px;
     flex-direction: row;
 }
+
+.pagination{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 0;
+    margin-top: 30px;
+}
+.pagination > span{
+    margin: 15px;
+} 
+.pag-but{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+
+    -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.pag-but:hover{
+    text-decoration: underline;
+}
 @media screen and (max-width: 1030px){
     .films-container{
         justify-content: space-evenly;
+    }
+    .pagination{
+        justify-content: center;
+        float: none;
     }
 }
