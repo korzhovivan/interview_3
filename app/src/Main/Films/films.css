@@ -11,11 +11,10 @@
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
-    line-height: 0;
     margin-top: 30px;
 }
 .pagination > span{
-    margin: 15px;
+    margin: 10px;
 } 
 .pag-but{
     font-size: 16px;
@@ -38,5 +37,10 @@
     .pagination{
         justify-content: center;
         float: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .pagination:nth-child(1){
+        display: none;
     }
 }
